@@ -1,0 +1,12 @@
+header{
+    background-color: var(--secondary_color_2);
+    height: 6.25rem;
+}
+header nav ul{
+    width: 33.0625rem;
+}
+nav ul a{
+    font-family: markazi_bold;
+    font-size: 1.375rem;
+    color: var(--primary_color_1);
+}

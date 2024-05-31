@@ -1,0 +1,32 @@
+footer{
+    background-color: var(--secondary_color_2);
+    height: 21.3125rem;
+}
+.footer_container_logo{
+    height: 18.75rem;
+}
+#footer_nav {
+   flex-basis: 25%;
+}
+#footer_nav nav ul{
+    flex-direction: column;
+}
+#footer_nav nav ul li:nth-last-child(n + 2){
+    margin-bottom: 1.125rem;
+}
+footer label{
+    font-family: markazi_medium;
+    font-size: 2.5rem;
+    color: var(--primary_color_1);
+}
+footer a{
+    font-family: markazi_bold;
+    font-size: 1.375rem;
+    color: var(--primary_color_1);
+}
+.footer_container_info > div:nth-child(1){
+    margin-bottom: 0.8125rem;
+}
+.footer_container_info  div > div{
+    margin-bottom: 1.0625rem;
+}

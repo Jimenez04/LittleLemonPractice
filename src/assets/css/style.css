@@ -1,0 +1,131 @@
+a,
+button,
+li,
+ul {
+    text-decoration: none !important;
+    list-style: none;
+}
+h1,
+h2,
+h3{
+    margin: 0;
+}
+* {
+    margin: 0;
+    border: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+}
+::-webkit-scrollbar {
+    width: 0;
+}
+:root {
+    --primary_color_1: #495E57;
+    --primary_color_2: #F4CE14;
+    --secondary_color_1: #EE9972;
+    --secondary_color_2: #FBDABB;
+    --highlight_color_1: #333333;
+    --highlight_color_2: #EDEFEE;
+    --white: #ffffff;
+}
+@font-face {
+    font-family: markazi_bold;
+    font-display: swap;
+    src: url("../font/markazi/markazitext-bold.ttf");
+}
+@font-face {
+    font-family: markazi_semibold;
+    font-display: swap;
+    src: url("../font/markazi/markazitext-semibold.ttf");
+}
+@font-face {
+    font-family: markazi_medium;
+    font-display: swap;
+    src: url("../font/markazi/markazitext-medium.ttf");
+}
+@font-face {
+    font-family: karla_regular;
+    font-display: swap;
+    src: url("../font/karla/Karla-Regular.ttf");
+}
+
+.flex{
+    display: flex;
+}
+.flex_wrap{
+    flex-wrap: wrap;
+}
+.flex_change_direction{
+    flex-direction: column;
+}
+.flex_center_y{
+    justify-items: center;
+    align-items: center;
+    
+}
+.flex_center_x{
+    justify-content: center;
+}
+.flex_space_between{
+ justify-content: space-between;
+}
+.max_width{
+   width: 1074px;
+}
+
+h1{
+    font-family: markazi_bold;
+    font-size: 3.75rem;
+    color: var(--primary_color_1);
+}
+h2{
+    font-family: markazi_medium;
+    font-size: 2.5rem;
+    color: var(--secondary_color_1);
+}
+p{
+    font-size: 1rem;
+    letter-spacing: 1px;
+    white-space: pre-line;
+    font-family: karla_regular;
+    line-height: 15px;
+    color: var(--highlight_color_2);
+    height: 5.875rem;
+    overflow-y: scroll;
+}
+section:first-of-type{
+margin-top: 5rem;
+}
+section{
+margin-top: 10rem;
+}
+section:last-of-type{
+    margin-bottom: 10rem;
+    }
+.btn{
+    padding: 0.75rem 2.687rem ;
+    border-radius: 1rem;
+    background-color: var(--primary_color_1);
+    color: var(--highlight_color_2);
+    font-family: markazi_bold;
+    font-size: 1.375rem;
+}
+button{
+    cursor: pointer;
+}
+
+span, label{
+    font-family: markazi_bold;
+    font-size: 1.25rem;
+    color: var(--highlight_color_2);
+}
+.line{
+    border-bottom: solid 2px var(--primary_color_2);
+}
+input{
+    border-radius: 1rem;
+    border: solid 2px var(--primary_color_2);
+    height: 26px;
+    width: 340px;
+    padding: 5px;
+}

@@ -1,0 +1,19 @@
+#hero .hero_container_info{
+    width: 26.25rem;
+}
+#hero .hero_container_info .hero_container_info_text p{
+    height: 29.625rem;
+    overflow: hidden;
+    line-height: 1.25rem;
+    color: var(--highlight_color_1);
+
+}
+#hero .hero_container_img{
+    flex-basis: 50%;
+}
+#hero .hero_container_img img{
+    height: 42.5625rem;
+}
+.hero_container_text{
+    margin-top: 0.9375rem;
+}

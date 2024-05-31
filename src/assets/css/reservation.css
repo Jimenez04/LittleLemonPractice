@@ -1,0 +1,95 @@
+.reservation_form_user_info_container_input > div > div:last-of-type{
+    margin: 30px 0 0 0;
+}
+.reservation_form_user_info_container_input > div > div{
+    width: 476px;
+}
+.reservation_form_table_info_tittle{
+    margin-bottom: 30px;
+}
+.reservation_form_tittle{
+    padding-bottom: 30px;
+}
+.reservation_form_table_info,
+.reservation_form_user_info{
+    padding: 50px 0;
+}
+label{
+    color: var(--highlight_color_1) !important;
+}
+textarea{
+    width: 576px;
+    height: 134px;
+    border-radius: 1rem;
+    border: solid 2px var(--primary_color_2);
+    resize: none;
+    padding: 5px;
+}
+textarea:focus,
+textarea:focus-visible,
+input:focus,
+input:focus-visible,
+select:focus,
+select:focus-visible
+{
+    outline-style: none;
+    border: solid 2px var(--primary_color_1);
+}
+.reservation_form_table_info_table_notes_tittle{
+    margin-bottom: 17px;
+}
+.reservation_form_table_info_table_details > div{
+    width: 420px;
+}
+#reservation input,
+#reservation select{
+    width: 232px;
+    height: 26px;
+    border-radius: 16rem;
+    font-family: karla_regular;
+    color: var(--highlight_color_1);
+    font-size: 1rem;
+    justify-content: center;
+}
+#reservation select{
+    width: 246px;
+    height:40px;
+}
+.select{
+    border-radius: 1rem;
+    display:inline-block;
+}
+.select select{
+    text-align-last:center;
+    appearance: none;
+    border: solid 2px var(--primary_color_2);
+}
+[type="date"],select {
+    background:#fff url(../img/img_list.png)  90% 50% no-repeat ;
+    color: var(--highlight_color_1);
+  }
+  [type="date"]::-webkit-inner-spin-button {
+    display: none;
+  }
+  [type="date"]::-webkit-calendar-picker-indicator 
+  {
+    opacity: 0;
+  }
+  ::-webkit-datetime-edit-text { color: var(--highlight_color_1); }
+  input::-webkit-datetime-edit-day-field:focus,
+  input::-webkit-datetime-edit-month-field:focus,
+  input::-webkit-datetime-edit-year-field:focus {
+      background-color: var(--primary_color_2);
+      color: var(--highlight_color_1);
+      border-radius: .9rem;
+      padding: 5px;
+      transform: scale(1.2);
+    }
+input:focus,
+select:active
+ {
+    background:#fff ;
+  }
+  .reservation_form_table_btn{
+    padding-top: 50px;
+  }

@@ -1,0 +1,27 @@
+.testimonial_container_content{
+    margin-top: 3.125rem;
+    overflow-x: scroll;
+    column-gap: 5rem;
+    border-radius: 1rem;
+}
+.testimonial_container_content_items{
+    min-width: 21.875rem;
+    height: 14.8125rem;
+    border: solid 2px var(--primary_color_2);
+    border-radius: 1rem;
+    row-gap: 1.5625rem;
+}
+.testimonial_container_content_items_subcontainer{
+    padding: 1.25rem;
+    gap: 1.25rem;
+}
+.testimonial_container_content_items_subcontainer_top_img{
+    margin-right: 1.25rem;
+}
+.testimonial_container_content_items_subcontainer_top_name span{
+    color: var(--primary_color_2);
+}
+.testimonial_container_content_items .testimonial_container_content_items_subcontainer_text p{
+    height: 5.75rem;
+    color: var(--highlight_color_1);
+}

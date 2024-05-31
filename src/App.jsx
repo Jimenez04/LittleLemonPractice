@@ -1,7 +1,9 @@
 import { useState } from 'react'
-import './App.css'
 import { Routes, Route } from "react-router-dom";
 import Header from "./assets/components/header";
+import Footer from './assets/components/footer'
+import Home from './assets/components/home'
+import Reservations from './assets/components/reservations/reservations'
 // import NoMatch from "./pages/NotRoute"
 
 function App() {
@@ -10,10 +12,10 @@ function App() {
       <Header />
       <Routes>
         <Route path="/" element={<Home />} />
-        <Route path="/reservations" element={<Reservations />} />
+        <Route path="/reservation" element={<Reservations />} />
         {/* <Route path="*" element={<NoMatch />} /> */}
       </Routes>
-    {/* <Footer /> */}
+    <Footer />
   </>
   )
 }
