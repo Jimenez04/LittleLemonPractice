@@ -129,3 +129,10 @@ input{
     width: 340px;
     padding: 5px;
 }
+input:focus:invalid{
+    border: 2px solid var(--secondary_color_1);
+}
+.disabled{
+    /* cursor: none; */
+    background-color: var(--secondary_color_1);
+}

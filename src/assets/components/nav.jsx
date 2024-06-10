@@ -1,7 +1,7 @@
 import React from "react";
 import { Link, NavLink } from "react-router-dom";
 
-export default function menu() {
+export default function Nav() {
   return (
     <nav className="">
       <ul className="flex flex_space_between">

@@ -1,8 +1,8 @@
 import React from "react";
-import Hero from "../components/home/hero";
-import Specials from "../components/home/special";
-import Testimonial from "./home/testimonial";
-import About from "./home/about";
+import Hero from "./CallToAction";
+import Specials from "./special";
+import Testimonial from "./CustomersSay";
+import About from "./about";
 
 export default function home() {
   return (

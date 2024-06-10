@@ -1,5 +1,5 @@
 import React from "react";
-import Menu from "./menu";
+import Menu from "./nav";
 import LogoFooter from "../img/logo/Logo2.png";
 import { useNavigate } from "react-router-dom";
 import { useLocation } from "react-router-dom";

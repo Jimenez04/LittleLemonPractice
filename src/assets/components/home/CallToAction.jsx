@@ -1,8 +1,10 @@
 import React from "react";
 import Hero_img from "../../img/hero_img.png";
 import "../../css/home_hero.css";
+import { useNavigate } from "react-router-dom";
 
 export default function hero() {
+  const navigate = useNavigate();
   return (
     <div id="hero" className="max_width ">
       <div className="hero_container flex flex_space_between">
@@ -37,7 +39,7 @@ export default function hero() {
             </p>
           </div>
           <div className="hero_container_info_btn">
-                      <button onClick={() => { alert('hey!') }} className="btn">Reserve a Table</button>
+                      <button onClick={ () => navigate("/reservation") } className="btn">Reserve a Table</button>
           </div>
         </div>
         <div className="hero_container_img">

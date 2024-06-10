@@ -1,10 +1,10 @@
 import React from "react";
 import Logo from "../img/logo/Logo.png";
-import Menu from "./menu";
+import Menu from './nav';
 import "../css/header.css";
 import { useNavigate } from "react-router-dom";
 
-export default function header() {
+export default function Header() {
     const navigate = useNavigate();
   return (
     <header className="flex flex_center_x">
