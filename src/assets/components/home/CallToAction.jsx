@@ -42,7 +42,7 @@ export default function hero() {
                       <button onClick={ () => navigate("/reservation") } className="btn">Reserve a Table</button>
           </div>
         </div>
-        <div className="hero_container_img">
+        <div className="hero_container_img flex flex_center_x">
           <img src={Hero_img} />
         </div>
       </div>

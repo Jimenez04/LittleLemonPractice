@@ -1,6 +1,6 @@
 footer{
     background-color: var(--secondary_color_2);
-    height: 21.3125rem;
+    padding: 2rem;
 }
 .footer_container_logo{
     height: 18.75rem;
@@ -10,6 +10,27 @@ footer{
 }
 #footer_nav nav ul{
     flex-direction: column;
+}
+@media only screen and (max-width: 700px) {
+    footer .footer_container {
+        flex-wrap: wrap;
+        gap: 2rem;
+    }
+    footer .footer_container  > div{
+        flex-basis: 40%;
+    }
+    footer .footer_container_logo{
+        flex-basis: 100% !important;
+        text-align: center;
+    }
+    footer #footer_nav{
+        order: 4;
+    flex-basis: 100%;
+    }
+    footer nav{
+        display: block;
+        text-align: center;
+    }
 }
 #footer_nav nav ul li:nth-last-child(n + 2){
     margin-bottom: 1.125rem;

@@ -1,6 +1,19 @@
 header{
+    height: 4rem;
     background-color: var(--secondary_color_2);
-    height: 6.25rem;
+}
+@media only screen and (min-width: 700px) {
+    header{
+        height: 6.25rem;
+    }
+}
+header #header_container img{
+    width: 10rem;
+}
+@media only screen and (max-width: 700px) {
+    nav{
+        display: none;
+    }
 }
 header nav ul{
     width: 33.0625rem;
@@ -9,4 +22,43 @@ nav ul a{
     font-family: markazi_bold;
     font-size: 1.375rem;
     color: var(--primary_color_1);
+}
+.btn_nav{
+    display: block;
+    background-image: url(../img/btn_menu_mobile.webp);
+    background-color: transparent;
+    background-size: cover;
+    background-position: center;
+    width: 30px;
+    height: 30px;
+}
+@media only screen and (max-width: 700px) {
+    .show{
+        display: block;
+        position: absolute;
+        width: 100%;
+        height: 50vh;
+        top: 4rem;
+        left: 0;
+        background-color: var(--secondary_color_2);
+        padding-top: 50px;
+       
+    }
+    nav.show ul{
+        flex-direction: column;
+        width: auto;
+        gap: 25px;
+    } 
+    nav.show ul li{
+       text-align: center;
+       
+    } 
+}
+footer .btn_nav{
+    display: none;
+}
+@media only screen and (min-width: 700px) {
+    .btn_nav{
+        display: none;
+    }
 }

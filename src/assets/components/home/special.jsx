@@ -4,8 +4,8 @@ import Cards from "./special/cards";
 
 export default function special() {
   return (
-    <div id="specials">
-      <div className="specials_container max_width ">
+    <div id="specials" className="max_width">
+      <div className="specials_container  ">
         <div className="specials_container_top flex flex_space_between">
           <div className="specials_container_top_tittle">
             <h1>Specials</h1>

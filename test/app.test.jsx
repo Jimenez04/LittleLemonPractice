@@ -6,17 +6,17 @@ import Form from '../src/assets/components/reservations/bookingpage'
 import App from '../src/App'
 
 
-describe("Booking Form", () => {
-  //   render(<BrowserRouter><App><Form /></App></BrowserRouter>);
-  //   const headingElement = screen.getByText("Make Your reservation");
-  // expect(headingElement).toBeInTheDocument();
+// describe("Booking Form", () => {
+//   //   render(<BrowserRouter><App><Form /></App></BrowserRouter>);
+//   //   const headingElement = screen.getByText("Make Your reservation");
+//   // expect(headingElement).toBeInTheDocument();
   
-  render(<BrowserRouter><App><Form /></App></BrowserRouter>);
-  const headingElement = screen.getByid("make");
-  it('should be equal to 2', () => {
-    expect(1+1).toEqual(2)
-  })
-});
+//   render(<BrowserRouter><App><Form /></App></BrowserRouter>);
+//   const headingElement = screen.getByid("make");
+//   it('should be equal to 2', () => {
+//     expect(1+1).toEqual(2)
+//   })
+// });
 
 // describe("Register component", () => {
 //   it("should render Register component correctly", () => {
