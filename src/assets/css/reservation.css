@@ -100,10 +100,19 @@ select:active
         flex-wrap: wrap;
         gap: 30px;
     }
+    .reservation_form_user_info_tittle{
+        margin-bottom: 30px;
+    }
     .reservation_form_table_info_table_details{
         row-gap: 30px;
     }
     textarea{
         width: 80vw;
+    }
+    #reservation input, #reservation select{
+        width: 45vw;
+    }
+    #date{
+        text-align: center;
     }
   }
