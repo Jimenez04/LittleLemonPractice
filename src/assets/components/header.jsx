@@ -14,7 +14,7 @@ export default function Header() {
             <img src={Logo} />
           </a>
         </div>
-        <Menu />
+        {/* <Menu /> */}
       </div>
     </header>
   );
