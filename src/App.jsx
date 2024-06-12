@@ -1,8 +1,8 @@
 import { useState } from 'react'
 import { Routes, Route } from "react-router-dom";
 import Footer from './assets/components/Footer'
-import Header from './assets/components/Header'
 import Home from './assets/components/home/Home'
+import Header from './assets/components/header'
 import Reservations from './assets/components/reservations/bookingpage'
 import Confirmation from './assets/components/reservations/ConfirmedBooking'
 // import NoMatch from "./pages/NotRoute"
