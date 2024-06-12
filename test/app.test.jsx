@@ -1,9 +1,9 @@
-import { fireEvent, render, screen } from '@testing-library/react';
-import { describe, it, expect } from 'vitest'
-import userEvent from '@testing-library/user-event';
-import { BrowserRouter } from 'react-router-dom';
-import Form from '../src/assets/components/reservations/bookingpage'
-import App from '../src/App'
+// import { fireEvent, render, screen } from '@testing-library/react';
+// import { describe, it, expect } from 'vitest'
+// import userEvent from '@testing-library/user-event';
+// import { BrowserRouter } from 'react-router-dom';
+// import Form from '../src/assets/components/reservations/bookingpage'
+// import App from '../src/App'
 
 
 // describe("Booking Form", () => {
