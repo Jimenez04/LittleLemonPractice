@@ -248,7 +248,7 @@ export default function bookingpage() {
         {validateForm ? (
           <button className="btn">Make Your reservation</button>
         ) : (
-          <button className="btn disabled" disabled>Fill the Form</button>
+          <button aria-label="On Click" className="btn disabled" disabled>Fill the Form</button>
         )}
       </div>
     </form>

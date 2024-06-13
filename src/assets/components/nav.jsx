@@ -17,26 +17,26 @@ export default function Nav() {
     <nav className={` ${showMenu ? "show" : ""} `} >
       <ul className="flex flex_space_between">
         <li id="" className="">
-          <NavLink className="" to="/" onClick={closeMenuOnMobile}>
+          <NavLink className="" to="/" onClick={closeMenuOnMobile} aria-label="Home">
             Home
           </NavLink>
         </li>
         <li id="" className="">
-          <a onClick={closeMenuOnMobile} href="#specials">Menu</a>
+          <a onClick={closeMenuOnMobile} href="#specials" aria-label="Menu">Menu</a>
         </li>
         <li id="" className="">
-          <a onClick={closeMenuOnMobile} href="#about">About</a>
+          <a onClick={closeMenuOnMobile} href="#about" aria-label="About">About</a>
         </li>
         <li id="" className="">
-          <NavLink className="" to="/reservation" onClick={closeMenuOnMobile}>
+          <NavLink className="" to="/reservation" onClick={closeMenuOnMobile} aria-label="Reservation">
             Reservation
           </NavLink>
         </li>
         <li id="" className="">
-          <a href="#order_online" onClick={closeMenuOnMobile}>Order Online</a>
+          <a href="#order_online" onClick={closeMenuOnMobile} aria-label="Order Online">Order Online</a>
         </li>
         <li id="" className="">
-          <a href="" onClick={closeMenuOnMobile}>Sign Up</a>
+          <a href="" onClick={closeMenuOnMobile} aria-label="Sign Up">Sign Up</a>
         </li>
       </ul>
     </nav>
